@@ -1,0 +1,28 @@
+{
+  "name": "emoji-supported",
+  "version": "1.0.0",
+  "description": "Test whether an emoji is supported by the browser.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "sideEffects": false,
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^5.0.1",
+    "rollup": "^2.18.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benaubin/emoji-supported.git"
+  },
+  "author": "Ben Aubin (benaubin.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benaubin/emoji-supported/issues"
+  },
+  "homepage": "https://github.com/benaubin/emoji-supported#readme"
+}
